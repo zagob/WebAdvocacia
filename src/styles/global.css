@@ -10,11 +10,25 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 li {
     list-style: none;
 }
 
 a{
     text-decoration: none;
+    font: 14px 'Open Sans', sans-serif;
     color: #000;
+}
+
+p {
+    font: 14px 'Open Sans', sans-serif;
+}
+
+span {
+    font: 14px 'Open Sans', sans-serif;
+    color: #ffffff;
 }
