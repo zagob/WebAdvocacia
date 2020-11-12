@@ -1,7 +1,8 @@
 import React from 'react';
+import { FaBalanceScale } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/logo2.png';
+import logo from '../../assets/logo2.svg';
 
 import './styles.css';
 
@@ -10,10 +11,16 @@ const Menu: React.FC = () => {
       <div className="top">
 
         <div className="logo">
-            <h1>Bestana Sociedade de Advogados</h1>
+            <div>
+                <FaBalanceScale size={50} />
+            </div>
+            <h1> Bestana Sociedade de Advogados</h1>
         </div>
 
-            <img src={logo} />
+            {/* <img src={logo} /> */}
+            {/* <div className="balance">
+                <FaBalanceScale size={50} />
+            </div> */}
 
         <div className="menu">
             <nav>
