@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../../assets/logo2.png';
+
 import './styles.css';
 
 const Menu: React.FC = () => {
@@ -10,6 +12,8 @@ const Menu: React.FC = () => {
         <div className="logo">
             <h1>Bestana Sociedade de Advogados</h1>
         </div>
+
+            <img src={logo} />
 
         <div className="menu">
             <nav>
