@@ -27,9 +27,9 @@ const Menu: React.FC = () => {
                 <ul>
                     <li><a><Link to="/">Home</Link></a></li>
                     <li><a><Link to="/o-escritorio">O Escritorio</Link></a></li>
-                    <li><a><Link to="/">Área de atuação</Link></a></li>
-                    <li><a><Link to="/">Consulta</Link></a></li>
-                    <li><a><Link to="/">Contato</Link></a></li>
+                    <li><a><Link to="/area-de-atuacao">Área de atuação</Link></a></li>
+                    <li><a><Link to="/consulta">Consulta</Link></a></li>
+                    <li><a><Link to="/contato">Contato</Link></a></li>
                 </ul>
             </nav>
         </div>

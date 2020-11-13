@@ -5,7 +5,7 @@
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
 
-body {
+body, html {
     background-color: rgb(239, 239, 240);
     overflow-x: hidden;
 }
