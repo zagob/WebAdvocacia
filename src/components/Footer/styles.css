@@ -90,7 +90,6 @@ footer .rodape {
         grid-template-columns: auto;
         width: 100%;
         margin-left: 10px;
-        border: 1px solid red;
     }
 
     footer .container .footer .logo h2 {
@@ -99,5 +98,52 @@ footer .rodape {
 
     footer .rodape {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer .container {
+        display: flex;
+        justify-content: flex-start;
+        height: 800px;
+        width: 100vw;
+    }
+
+    footer .container .logo p {
+        width: 340px;
+    }
+
+    footer .container .footer {
+        display: grid;
+        grid-template-columns: auto;
+        /* margin-left: 30px; */
+        width: 100vw;
+        padding-left: 70px;
+        height: 800px;
+        overflow-x: hidden;
+        /* background-color: #000; */
+    }
+
+    footer .container .footer .logo h2 {
+        font-size: 18px;
+    }
+
+    footer .rodape {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    footer .container .footer {
+        padding-left: 110px;
+    }
+
+    footer .container .logo h2 {
+        font-size: 13px;
+    }
+
+    footer .container .logo p {
+        width: 270px;
     }
 }
