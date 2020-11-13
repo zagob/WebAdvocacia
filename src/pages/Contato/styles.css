@@ -1,0 +1,109 @@
+.area_contato .titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.area_contato .secao1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.area_contato .secao1 .formulario {
+    margin: 32px;
+}
+
+.area_contato .secao1 .formulario .texto h1 {
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.area_contato .secao1 .formulario form {
+    background: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.area_contato .secao1 .formulario form input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+.area_contato .secao1 .formulario form textarea {
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+.area_contato .secao1 .formulario form button {
+    height: 40px;
+    width: 400px;
+    background-color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px auto;
+    transition: 0.2s;
+}
+
+.area_contato .secao1 .formulario form button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.area_contato .info {
+    
+    margin: 32px;
+}
+
+.area_contato .info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.area_contato .info span {
+    color: #000;
+    margin-top: 10px;
+}
+
+/* Media querys */
+@media screen and (max-width: 1180px) {
+    .area_contato .secao1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .area_contato .formulario {
+        width: 300px;
+    }
+
+    .area_contato .secao1 .formulario form {
+        height: 400px;
+    }
+
+    .area_contato .secao1 .formulario form input {
+        width: 220px;
+    }
+
+    .area_contato .secao1 .formulario form textarea {
+        width: 220px;
+    }
+
+    .area_contato .secao1 .formulario form button {
+        width: 220px;
+    }
+}
