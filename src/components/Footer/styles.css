@@ -38,11 +38,13 @@ footer .container .footer li {
 
 footer .footer p {
     color: #bababa;
+    text-align: justify;
 }
 
 footer .footer a {
     color: #bababa;
     font-size: 14px;
+    text-align: justify;
 }
 
 footer .footer a:hover {
