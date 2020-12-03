@@ -14,7 +14,11 @@ const Home: React.FC = () => {
         <ContatoWpp />
         
         <main className="carousel">
-          <h1>Frase</h1>
+          {/* <h1>Frase</h1> */}
+          <div className="img">
+            <h1>Estamos preparados para te atender</h1>
+          </div>
+          {/* <img src="https://www.tmfadvogados.com/assets/media/img/background_1.jpg" width="100%" height="577" /> */}
         </main>
 
         <section className="contato">
@@ -28,7 +32,9 @@ const Home: React.FC = () => {
         </section>
 
         <section className="conteudo">
-          <div className="foto">Foto</div>
+          <div className="foto">
+            <div>IMG</div>
+          </div>
 
           <div className="atividades">
             <div className="consulta">
