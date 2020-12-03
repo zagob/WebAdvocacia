@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsappSquare } from 'react-icons/fa';
+import ContatoWpp from '../../components/ContatoWpp';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
 
@@ -9,6 +10,8 @@ const Home: React.FC = () => {
   return (
       <>
         <Menu />
+
+        <ContatoWpp />
         
         <main className="carousel">
           <h1>Frase</h1>
@@ -18,7 +21,9 @@ const Home: React.FC = () => {
             <h2>Olá, como posso ajudar</h2>
             <p>Clique no icone abaixo e contate-nós pelo whatsapp.</p>
             <div className="wpp">
-              <FaWhatsappSquare size={40} />
+              <a href="https://api.whatsapp.com/send?phone=5514997130042" target="_blank">
+                <FaWhatsappSquare size={50} color="green" />
+              </a>
             </div>
         </section>
 
